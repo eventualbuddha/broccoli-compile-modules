@@ -1,0 +1,28 @@
+{
+  "name": "broccoli-compile-modules",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eventualbuddha/broccoli-compile-modules.git"
+  },
+  "author": "Brian Donovan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eventualbuddha/broccoli-compile-modules/issues"
+  },
+  "homepage": "https://github.com/eventualbuddha/broccoli-compile-modules",
+  "dependencies": {
+    "broccoli-kitchen-sink-helpers": "^0.2.2",
+    "broccoli-merge-trees": "^0.1.4",
+    "broccoli-writer": "^0.1.1",
+    "es6-module-transpiler": "git://github.com/square/es6-module-transpiler#rewrite-with-bindings"
+  },
+  "devDependencies": {
+    "broccoli-cli": "0.0.1"
+  }
+}
