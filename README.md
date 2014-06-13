@@ -18,7 +18,7 @@ var compileModules = require('broccoli-compile-modules');
 var app = compileModules('app', {
   inputFiles: ['**/*.js'],
   output: '/app.js',
-  formatter: 'module-export'
+  formatter: 'bundle'
 });
 
 module.exports = app;
