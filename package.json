@@ -20,7 +20,7 @@
     "broccoli-kitchen-sink-helpers": "^0.2.2",
     "broccoli-merge-trees": "^0.1.4",
     "broccoli-writer": "^0.1.1",
-    "es6-module-transpiler": "git://github.com/square/es6-module-transpiler#rewrite-with-bindings"
+    "es6-module-transpiler": "^0.5.1"
   },
   "devDependencies": {
     "broccoli-cli": "0.0.1"

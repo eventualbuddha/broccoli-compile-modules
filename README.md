@@ -24,7 +24,7 @@ var app = compileModules('app', {
 module.exports = app;
 ```
 
-The built-in formatters are `module-export`, `variable-export`, and `commonjs`.
+The built-in formatters are `bundle` and `commonjs`.
 
 ## Contributing
 
