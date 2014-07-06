@@ -36,6 +36,10 @@ function CompileModules(inputTree, options) {
   this.setInputFiles(options.inputFiles);
   this.setOutput(options.output);
   this.setFormatter(options.formatter);
+  
+  if (options.output) {
+    this.description = 'CompileModules (' + options.output + ')';
+  }
 }
 
 /**
