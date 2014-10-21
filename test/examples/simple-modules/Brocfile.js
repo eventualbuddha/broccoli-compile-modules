@@ -5,6 +5,6 @@ module.exports = compileModules(
   {
     inputFiles: ['**/*.js'],
     output: '/output.js',
-    formatter: 'export-variable'
+    formatter: 'bundle'
   }
 );
