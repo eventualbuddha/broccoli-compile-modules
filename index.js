@@ -37,6 +37,10 @@ function CompileModules(inputTree, options) {
   this.setResolvers(options.resolvers || []);
   this.setOutput(options.output);
   this.setFormatter(options.formatter);
+  
+  if (options.output) {
+    this.description = 'CompileModules (' + options.output + ')';
+  }
 }
 
 /**
