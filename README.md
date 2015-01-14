@@ -2,6 +2,10 @@
 
 Compile ES6 modules into your desired format.
 
+## DEPRECATED
+
+Please try [broccoli-es6modules](https://github.com/ef4/broccoli-es6modules) instead.
+
 ## Installation
 
 ```
