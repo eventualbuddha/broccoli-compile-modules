@@ -1,11 +1,12 @@
 /* jshint node:true, undef:true, unused:true */
 
+console.log('broccoli-compile-modules is deprecated. Please try https://github.com/ef4/broccoli-es6modules instead.');
+
 var ModuleContainer = require('es6-module-transpiler').Container;
 var FileResolver = require('es6-module-transpiler').FileResolver;
 var formatters = require('es6-module-transpiler').formatters;
 
 var path = require('path');
-var mergeTrees = require('broccoli-merge-trees');
 var helpers = require('broccoli-kitchen-sink-helpers');
 var Writer = require('broccoli-writer');
 
