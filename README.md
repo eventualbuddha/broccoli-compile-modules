@@ -1,5 +1,7 @@
 # broccoli-compile-modules
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/eventualbuddha/broccoli-compile-modules.svg)](https://greenkeeper.io/)
+
 Compile ES6 modules into your desired format.
 
 ## DEPRECATED
